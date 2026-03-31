@@ -10,14 +10,9 @@ Intelligent conversation compaction for LLM applications. When your conversation
 
 Extracted from battle-tested patterns powering production AI systems serving millions of users.
 
-```
-Messages grow...  ██████████████████████████████░░░░  85% full
-                                    │
-                              contextkit
-                                    │
-After compaction  ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░  18% full
-                  ↑ summary    ↑ preserved context
-```
+![contextkit demo](demo.gif)
+
+*Conversation grows to 100% of context window, then auto-compacts back to 10% — seamlessly.*
 
 ## The Problem
 
